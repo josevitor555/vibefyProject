@@ -1,0 +1,28 @@
+1 - Contruir uma API em que retorna as informações do Banco de Dados
+2 - Conexão com Banco de Dados
+3 - Conectar o Front-End com Back-End
+4 - Lógica do Player
+
+//////////////////////////////////////////////
+1 - Manuseando requisições via Verbos HTTP
+POST, GET, PUT, DELETE
+
+2 - Manusear requisições vindas do banco de dados
+CRUD - Create, Read, Update, Delete
+
+///////////////////////////////////////////////
+1 - node ./api/server.js - recupera as alterações salvas do servidor
+2 - node --watch ./api/server.js - recupera as alterações salvas em tempo real do servidor
+
+//////////////////////////////////////////
+Rotas do servidor
+
+1 - A API vai recuperar as informações do banco de dados através do EndPoint, exemplo /artistas, configurado na rota do servidor.
+2 - Caso contrário, retorna um Cannot GET
+
+/////////////////////////////////////////////
+Criando Banco de Dados com MongoDB
+
+1 - Zv1bAqDiWv7NqDka (Senha)
+2 - jv1054596 (username)
+3 - Connection String: mongodb+srv://jv1054596:Zv1bAqDiWv7NqDka@vibefy.doobg.mongodb.net/?retryWrites=true&w=majority&appName=VibeFy
